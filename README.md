@@ -1,2 +1,0 @@
-# blank-navigasi
-web
