@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPA TERPADU</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="canva-container">
+
+        <iframe
+            id="canvaFrame"
+            loading="lazy"
+            src="https://www.canva.com/design/DAHDnEhPHzk/FAGOzpdMdUKRB-pLGtuMeA/view?embed"
+            allowfullscreen
+            allow="fullscreen"
+            scrolling="no">
+        </iframe>
+
+    </div>
+
+    <script>
+        // Paksa halaman mulai dari atas
+        window.onload = function () {
+            window.scrollTo(0, 0);
+        };
+
+        // Tambahan untuk mobile
+        window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
+        };
+    </script>
+
+</body>
+
+</html>
